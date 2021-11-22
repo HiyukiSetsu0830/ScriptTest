@@ -19,7 +19,7 @@ public class Lesson4_task2 : MonoBehaviour {
 
 public class Boss {
 
-    int mp = 53;
+    private int mp = 53;
 
     public void Magic() {
         if (mp >= 5) {
